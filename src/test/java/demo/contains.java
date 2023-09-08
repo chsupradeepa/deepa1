@@ -14,5 +14,6 @@ public class contains {
           driver.findElement(By.xpath("//input[contains(@type,'password')]")).sendKeys("manager");
           driver.findElement(By.xpath("//div[contains(text(),'Login')] ")).click();
 	}
+	system.out.println( "i am supradeepa");
 
 }
